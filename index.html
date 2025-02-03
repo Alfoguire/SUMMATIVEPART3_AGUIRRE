@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Alfonso's Portfolio</h1>
+    </header>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="images/your-image.jpg" alt="Alfonso" class="about-image">
+            <p>Hello! My name's Alfonso Nicolas R. Aguirre, a college student with a passion of gaming, programming, designing, and editing. Studying the course of Entertainment and Multimedia Computing (EMC), I focus on developing video games that immerse its audience into the virtual world to create unforgettable and out of this world experiences.</p>
+        </div>
+        <div class="button-container">
+            <button id="more-info">More Info</button>
+        </div>
+    </section>
+    
+    
+    
+    <section id="projects">
+        <section id="projects">
+            <h2>Past Projects</h2>
+            <ul>
+                <li><a href="https://alfoguire.github.io/AguirreCourseSchedule.html" target="_blank">Course Schedule Project</a></li>
+                <li><a href="https://alfoguire.github.io/AguirrePHTours.html" target="_blank">PH Tours Project</a></li>
+                <li><a href="https://alfoguire.github.io/LabActivityFlex.html" target="_blank">Flex Activity</a></li>
+            </ul>
+        </section>
+
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <ul>
+            <li><a href="#" onclick="showImage('images/game-certificate.png')">Game Design Certificate</a></li>
+            <li><a href="#" onclick="showImage('images/uxdesign-certificate.png')">UX Design Certificate</a></li>
+        </ul>
+        
+        <div id="image-modal" class="modal">
+            <span class="close" onclick="closeImage()">&times;</span>
+            <img id="modal-img" class="modal-content">
+        </div>
+    </section>
+    
+        
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:clickerclackerz@email.com" id="email-link">clickerclackerz@email.com</a></p>
+        <p>Phone: +63 936 956 2238</p>
+        <p id="email-message" style="display:none;">A message has been sent to the email.</p>
+        
+        <div class="social-buttons">
+            <a href="https://github.com/Alfoguire" target="_blank" class="social-btn github">GitHub</a>
+            <a href="https://www.facebook.com/alfonso.aguirre.9231/" target="_blank" class="social-btn facebook">Facebook</a>
+            <a href="https://www.linkedin.com/in/alfonso-aguirre-982674253/" target="_blank" class="social-btn linkedin">LinkedIn</a>
+        </div>
+    </section>
+    
+    
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <img src="images/web-design.png" class="decor-image img-top-left" alt="Web Design">
+    <img src="images/audio-design.png" class="decor-image img-top-right" alt="Audio Design">
+    <img src="images/digital-art.png" class="decor-image img-bottom-left" alt="Digital Art">
+    <img src="images/game-icon.png" class="decor-image img-bottom-right" alt="Game Icon">
+    <img src="images/world-wide-web.png" class="decor-image img-middle-left" alt="Net Icon">
+    <img src="images/cloud.png" class="decor-image img-middle-right" alt="Cloud Icon">
+</body>
+</html>

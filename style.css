@@ -1,0 +1,196 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/starry-night.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+header {
+    background-image: url('images/the-shaper.jpg');
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+header h1 {
+    border: 2px solid white;
+    padding: 10px 15px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+nav {
+    background-color: #1f2d50;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; 
+}
+#about {
+    margin-top: 20px;
+    text-align: left; 
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+}
+.about-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+.button-container {
+    text-align: center; 
+    margin-top: 20px;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #218838;
+}
+footer {
+    background-color: #1f2d50;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#email-message {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: green;
+}
+.decor-image {
+    position: absolute;
+    width: 120px;
+    opacity: 1; 
+    z-index: -1; 
+}
+
+.img-top-left {
+    left: 7%;
+    top: 32%;
+    transform: rotate(-15deg);
+}
+
+.img-top-right {
+    right: 7%;
+    top: 32%;
+    transform: rotate(10deg);
+}
+
+.img-bottom-left {
+    left: 7%;
+    bottom: -48%;
+    transform: rotate(-8deg);
+}
+
+.img-bottom-right {
+    right: 7%;
+    bottom: -47%;
+    transform: rotate(10deg);
+}
+.img-middle-left {
+    left: 7%;
+    bottom: 3%;
+    transform: rotate(8deg);
+}
+.img-middle-right {
+    right: 7%;
+    bottom: 3%;
+    transform: rotate(-10deg);
+}
+
+#certificates {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    display: block;
+    margin: 5% auto; 
+    max-width: 80%;
+    max-height: 80vh;
+    border-radius: 8px;
+    object-fit: contain;
+    padding-bottom: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Social Media Buttons */
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.github { background-color: #333; }
+.facebook { background-color: #1877F2; }
+.linkedin { background-color: #0077B5; }
+
+.social-btn:hover {
+    opacity: 0.8;
+}
